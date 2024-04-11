@@ -9,6 +9,7 @@ def remove_duplicates(arr):
             removed_elements.append(arr[i])
     return unique_arr, removed_elements
 
+# new comments for pull request
 # Test the function
 arr = [1, 2, 2, 3, 4, 4, 5]
 unique_arr, removed_elements = remove_duplicates(arr)
